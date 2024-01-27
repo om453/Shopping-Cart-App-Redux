@@ -13,7 +13,8 @@ This project is a fully functional E-Commerce Shopping Cart application built us
 ## Technologies Used
 
 - **React.js:** A popular JavaScript library for building user interfaces, providing a component-based architecture for creating reusable UI elements.
-- **Redux:** A predictable state container for JavaScript applications, facilitating efficient management of application state.
+- **React Router:** Declarative routing for React applications to navigate through different views.
+- **Redux toolkit:** A predictable state container for JavaScript applications, facilitating efficient management of application state.
 - **Tailwind CSS:** A utility-first CSS framework that enables rapid development by providing pre-designed components and utility classes for styling.
 
 ## Getting Started
@@ -29,5 +30,5 @@ To run this project locally, follow these steps:
 
 ## Live Demo
 
-Check out the live demo of the E-Commerce Shopping Cart App (https://shopping-cart-app-redux.vercel.app/)https://shopping-cart-app-redux.vercel.app/).
+Check out the live demo of the E-Commerce Shopping Cart App (https://shopping-cart-app-redux.vercel.app/).
 
