@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import toast from 'react-hot-toast';
+import { toast } from 'react-hot-toast';
 import { add, remove } from '../redux/slices/CartSlice'
 
 
@@ -12,7 +12,7 @@ export const Product = ({ post }) => {
 
   const addToCart = () => {
     dispatch(add(post));            //here post works as a input parameter 
-    toast.success("Item added to cart")
+    toast.success("Item is added to cart")
   }
 
   const removeFromCard = () => {
