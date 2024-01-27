@@ -41,7 +41,7 @@ const removeFromCart = () => {
        </div>
     </div>
 
-    <div className='bg-gray-600 w-full h-[2px]'></div>
+    <div className='bg-gray-600 relative -right-[18vw] w-2/3 h-[2px]'></div>
     </div>
 
   )

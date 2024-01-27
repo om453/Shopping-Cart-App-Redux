@@ -19,10 +19,10 @@ const Cart = () => {
       {
         cart.length > 0 ?
           (
-            <div className='flex mx-auto w-full h-full justify-center mt-6'> 
+            <div  className='flex flex-col sm:flex-row mx-auto w-full mt-6'> 
 
             {/* cartPage part - 1st */}
-              <div className=' h-[300px]'>
+              <div className='sm:w-3/4'>
                 {
                   cart.map((item, index) => {
                     return <CartItem key={item.id} item={item} itemIndex={index} />
@@ -32,8 +32,8 @@ const Cart = () => {
               
 
 {/* cartPage part - 2nd */}
-              <div >
-                <div className='m-5 p-8'>
+              <div className='flex flex-col items-center '>
+                <div className='m-5 p-8 '>
                   <div className='text-[15px] font-sans uppercase font-bold text-green-600'>Your Cart</div>
                   <div className='text-4xl font-sans uppercase font-bold  text-green-600 mb-7'>Summary</div>
                   <p>
