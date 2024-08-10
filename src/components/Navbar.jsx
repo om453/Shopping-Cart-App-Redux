@@ -3,7 +3,6 @@ import { MdShoppingCart } from "react-icons/md";
 import { NavLink } from 'react-router-dom';
 import logoImage from '../images/logo.png'
 import { useSelector } from 'react-redux';
-
 const Navbar = () => {
 
   const {cart} = useSelector((state) => state);
@@ -33,7 +32,6 @@ const Navbar = () => {
               
             </div>
           </NavLink>
-
         </div>
       </nav>
 
